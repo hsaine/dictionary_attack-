@@ -18,6 +18,10 @@ Une attaque par dictionnaire est une technique d'attaque par force brute pour la
 
 ## Tableau de comparaison des resultas
 
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 ## Conclusion 
 
 ## Contact 
