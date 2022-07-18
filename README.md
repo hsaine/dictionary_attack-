@@ -1,4 +1,4 @@
-# <p align='center'>dictionary_attack</p>
+# <p align='center'>  Attaque par dictionnaire</p>
 ![image](https://user-images.githubusercontent.com/85867562/179609398-142ea052-9352-4e83-970b-a0ce3ade0261.png)
 
 ## INTRODUCTION DE L'IDÉE DU PROJET
@@ -31,5 +31,14 @@ Une attaque par dictionnaire est une technique d'attaque par force brute pour la
 Ce projet nous a permet de familiariser avec **OPENMP** et bien maitriser les différents directives de cette API standard pour les systèmes parallèles à mémoire partagée.
 Étant donné que les attaques par dictionnaire s'appuient sur des mots couramment utilisés comme mots de passe, une politique de mots de passe forte permet déjà de bien se protéger contre ces attaques. Il faut encourager les utilisateurs à créer des mots de passe uniques - idéalement une combinaison de mots aléatoires avec des symboles et des chiffres - à ne pas les réutiliser ou les partager.
 
-## Contact 
+
+<h1 align="center">Contact </h1>
+  
+ Email: 
+<hsaineayoub77@gmail.com>
+
+[mon linkedin](https://www.linkedin.com/in/ayoub-hsaine-a3a1b3197/)
+
+
+
 
