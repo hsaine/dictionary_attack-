@@ -208,14 +208,21 @@ time(&tend);
 	
 	return 0;
 }
-        
-        
-        
-        
-
-
+              
+      
 ```
+
 ## Explication de code paralléle
+
+* Dans notre code on trois boucles for, une boucle for externe(globale) responsable de parcourt des mots de dictionnaire, et deux boucles imbriqués internes pour prendre le mot et le chiffrer et le comparer.
+* Pour paralléliser la boucle externe ,On utilisé la directive **#pragma omp parallel for schedule(dynamic)** et on a passé comme paramètres **schedule** qui gère la distributions des itérations de la boucle à travers les threads et comme **clause dynamic**.
+*  **#pragma omp parallel for schedule(dynamic)** dans ce cas un thread qui a terminé un bloc de calculs reçoit le bloc d’itérations suivant de notre code.
+* **omp_set_num_threads(1)**, après l'appel de printf qui affichent les mots de dictionnaire,le nombre de threads exécutant dans cette région est 1.
+* Pour paralléliser les deux boucles internes de notre code on a utilisé la directive suivante: **#pragma omp parallel for num_threads(2)** afin que l'index de la première boucle for est divisé entre les threads, on a essaye de paralléliser l'intégrité de les deux boucles en ajoutant la
+**collapse clause** pour réduire le temps d'exécution mais ça ne marche pas car le parallélisme d'une boucle for conditionnelle est interdite.
+
+## Le dictionnaire 
+vous trouvez là le lien de dictionnaire utilisé  [dictionnaire]().
 
 ## Tableau de comparaison des resultas
 
