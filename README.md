@@ -222,7 +222,7 @@ time(&tend);
 **collapse clause** pour réduire le temps d'exécution mais ça ne marche pas car le parallélisme d'une boucle for conditionnelle est interdite.
 
 ## Le dictionnaire 
-vous trouvez là le lien de dictionnaire utilisé  [dictionnaire]().
+vous trouvez là le lien de dictionnaire utilisé  [dictionnaire](darkc0de.lst).
 
 ## Tableau de comparaison des resultas
 
